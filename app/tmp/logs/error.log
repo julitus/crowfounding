@@ -1,0 +1,176 @@
+2016-12-07 22:33:16 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jchart.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:33:17 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/jchart.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:44 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /widgets.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:46 Error: [MissingControllerException] Controller class Charts.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Charts.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /charts.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:48 Error: [MissingControllerException] Controller class Tables.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Tables.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /tables.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:49 Error: [MissingControllerException] Controller class Forms.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Forms.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /forms.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:51 Error: [MissingControllerException] Controller class Panels.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Panels.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /panels.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:52 Error: [MissingControllerException] Controller class Icons.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Icons.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /icons.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:40:56 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /widgets.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:49:57 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /widgets.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:55:22 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /widgets.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 22:57:52 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /widgets.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 23:19:49 Error: [MissingControllerException] Controller class Tables.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Tables.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /tables.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 23:19:55 Error: [MissingControllerException] Controller class Charts.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Charts.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /charts.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 23:19:57 Error: [MissingControllerException] Controller class Widgets.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Widgets.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /widgets.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-07 23:20:00 Error: [MissingControllerException] Controller class Index.htmlController could not be found.
+Exception Attributes: array (
+  'class' => 'Index.htmlController',
+  'plugin' => NULL,
+)
+Request URL: /index.html
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-11 16:22:43 Error: [PDOException] SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "countries_pkey"
+DETAIL:  Key (id)=(5) already exists.
+Request URL: /countries/add
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO "pu...')
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Model.php(1940): DboSource->create(Object(Country), Array, Array)
+#4 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /home/julio/Documents/CrowFounding/back/app/Controller/CountriesController.php(51): Model->save(Array)
+#6 [internal function]: CountriesController->add()
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#10 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-12-11 16:23:46 Error: [PDOException] SQLSTATE[23505]: Unique violation: 7 ERROR:  duplicate key value violates unique constraint "countries_pkey"
+DETAIL:  Key (id)=(6) already exists.
+Request URL: /countries/add
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Datasource/DboSource.php(470): PDOStatement->execute(Array)
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Datasource/DboSource.php(436): DboSource->_execute('INSERT INTO "pu...', Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Datasource/DboSource.php(1090): DboSource->execute('INSERT INTO "pu...')
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Model.php(1940): DboSource->create(Object(Country), Array, Array)
+#4 /home/julio/Documents/CrowFounding/back/lib/Cake/Model/Model.php(1758): Model->_doSave(Array, Array)
+#5 /home/julio/Documents/CrowFounding/back/app/Controller/CountriesController.php(51): Model->save(Array)
+#6 [internal function]: CountriesController->add()
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(491): ReflectionMethod->invokeArgs(Object(CountriesController), Array)
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#10 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
