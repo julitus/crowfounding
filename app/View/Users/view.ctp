@@ -9,9 +9,11 @@
 	<div class="col-lg-12">
 		<div class="panel panel-default">
 			<div class="panel-body">
-				<div class="col-md-6">
+				<div class="col-md-">
 					<div class="users view">
 					<h3><?php echo h($user['User']['email']); ?></h3>
+						<div class="row">
+                            <div class="col-md-6 col-sm-6 col-xs-12">
 						<dl>
 							<dt class="th-class"><?php echo __('Nombres'); ?></dt>
 							<dd>
@@ -38,14 +40,28 @@
 								<?php echo h($user['User']['address']); ?>
 								&nbsp;
 							</dd>
-							<dt class="th-class"><?php echo __('Fecha de Nacimiento'); ?></dt>
+							<dt class="th-class"><?php echo __('País'); ?></dt>
 							<dd>
-								<?php echo h($user['User']['birthdate']); ?>
+								<?php echo $this->Html->link($user['Country']['name'], array('controller' => 'countries', 'action' => 'view', $user['Country']['id'])); ?>
 								&nbsp;
 							</dd>
-							<dt class="th-class"><?php echo __('Imágen'); ?></dt>
+							<dt class="th-class"><?php echo __('Estado/Región'); ?></dt>
 							<dd>
-								<?php echo h($user['User']['file']); ?>
+								<?php echo $this->Html->link($user['State']['name'], array('controller' => 'states', 'action' => 'view', $user['State']['id'])); ?>
+								&nbsp;
+							</dd>
+							<dt class="th-class"><?php echo __('Ciudad'); ?></dt>
+							<dd>
+								<?php echo $this->Html->link($user['City']['name'], array('controller' => 'cities', 'action' => 'view', $user['City']['id'])); ?>
+								&nbsp;
+							</dd>
+						</dl>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+						<dl>
+							<dt class="th-class"><?php echo __('Fecha de Nacimiento'); ?></dt>
+							<dd>
+								<?php echo h(date("d-m-Y", strtotime($user['User']['birthdate']))); ?>
 								&nbsp;
 							</dd>
 							<dt class="th-class"><?php echo __('Facebook'); ?></dt>
@@ -63,19 +79,9 @@
 								<?php echo h($user['User']['youtube']); ?>
 								&nbsp;
 							</dd>
-							<dt class="th-class"><?php echo __('País'); ?></dt>
+							<dt class="th-class"><?php echo __('Imágen'); ?></dt>
 							<dd>
-								<?php echo $this->Html->link($user['Country']['name'], array('controller' => 'countries', 'action' => 'view', $user['Country']['id'])); ?>
-								&nbsp;
-							</dd>
-							<dt class="th-class"><?php echo __('Estado/Región'); ?></dt>
-							<dd>
-								<?php echo $this->Html->link($user['State']['name'], array('controller' => 'states', 'action' => 'view', $user['State']['id'])); ?>
-								&nbsp;
-							</dd>
-							<dt class="th-class"><?php echo __('Ciudad'); ?></dt>
-							<dd>
-								<?php echo $this->Html->link($user['City']['name'], array('controller' => 'cities', 'action' => 'view', $user['City']['id'])); ?>
+								<?php echo h($user['User']['file']); ?>
 								&nbsp;
 							</dd>
 							<dt class="th-class"><?php echo __('Activo'); ?></dt>
@@ -85,15 +91,17 @@
 							</dd>
 							<dt class="th-class"><?php echo __('Creado'); ?></dt>
 							<dd>
-								<?php echo h($user['User']['created']); ?>
+								<?php echo h(date("d-m-Y h:i:s A", strtotime($user['User']['created']))); ?>
 								&nbsp;
 							</dd>
 							<dt class="th-class"><?php echo __('Modificado'); ?></dt>
 							<dd>
-								<?php echo h($user['User']['modified']); ?>
+								<?php echo h(date("d-m-Y h:i:s A", strtotime($user['User']['modified']))); ?>
 								&nbsp;
 							</dd>
 						</dl>
+							</div>
+						</div>
 						<?= $this->Html->link(__('Editar'), array('action' => 'edit', $user['User']['id']), array('class' => 'btn btn-success')) ?>
                         <?= $this->Form->postLink(__('Eliminar'), array('action' => 'delete', $user['User']['id']), array('confirm' => __('¿Estas seguro que quieres eliminar el registro # %s?', $user['User']['email']), 'class' => 'btn btn-warning')) ?>
                         <?= $this->Html->link(__('Ir a Lista'), array('action' => 'index'), array('class' => 'btn btn-info')) ?>

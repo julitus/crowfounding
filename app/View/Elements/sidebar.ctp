@@ -10,6 +10,9 @@
 		</div>
 		<ul class="nav menu">
 			<li>
+				<?= $this->Html->link('<svg class="glyph stroked key "><use xlink:href="#stroked-key"/></svg> Administradores', array('controller' => 'admins', 'action' => 'index'), array('escape' => false)) ?>
+			</li>
+			<li>
 				<?= $this->Html->link('<svg class="glyph stroked male user"><use xlink:href="#stroked-male-user"></use></svg> Usuarios', array('controller' => 'users', 'action' => 'index'), array('escape' => false)) ?>
 			</li>
 			<li>
@@ -33,6 +36,9 @@
 						<?= $this->Html->link('<svg class="glyph stroked flag"><use xlink:href="#stroked-flag"></use></svg> Ciudades', array('controller' => 'cities', 'action' => 'index'), array('escape' => false)) ?>
 					</li>
 				</ul>
+			</li>
+			<li>
+				<a href="#"><svg class="glyph stroked cancel"><use xlink:href="#stroked-cancel"></use></svg> Cerrar Sesion</a>
 			</li>
 			<!--li class="active"><a href="index.html"><svg class="glyph stroked dashboard-dial"><use xlink:href="#stroked-dashboard-dial"></use></svg> Dashboard</a></li-->
 			<!--li><a href="widgets.html"><svg class="glyph stroked calendar"><use xlink:href="#stroked-calendar"></use></svg> Widgets</a></li>

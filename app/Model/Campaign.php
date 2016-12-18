@@ -48,6 +48,20 @@ class Campaign extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
+		'Image' => array(
+			'className' => 'Image',
+			'foreignKey' => 'image_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
+		'Video' => array(
+			'className' => 'Video',
+			'foreignKey' => 'video_id',
+			'conditions' => '',
+			'fields' => '',
+			'order' => ''
+		),
 		'User' => array(
 			'className' => 'User',
 			'foreignKey' => 'user_id',

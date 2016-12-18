@@ -40,14 +40,6 @@ CREATE TABLE campaigns (
     type integer,
     money_goal double precision,
     money_now double precision,
-    url_video character varying(256),
-    slug character varying(128),
-    file_1 character varying(128),
-    file_2 character varying(128),
-    file_3 character varying(128),
-    file_4 character varying(128),
-    file_5 character varying(128),
-    path character varying(64),
     status integer,
     begin_date date,
     end_date date,
@@ -56,6 +48,8 @@ CREATE TABLE campaigns (
     city_id integer,
     category_id integer,
     user_id bigint,
+    video_id bigint,
+    image_id bigint,
     created timestamp without time zone,
     modified timestamp without time zone
 );
@@ -77,4 +71,47 @@ CREATE TABLE states (
     id serial PRIMARY KEY,
     name character varying(128),
     country_id integer
+);
+
+CREATE TABLE videos (
+    id bigserial PRIMARY KEY,
+    url_video_0 character varying(256),
+    url_video_1 character varying(256),
+    url_video_2 character varying(256),
+    url_video_3 character varying(256),
+    url_video_4 character varying(256),
+    url_video_5 character varying(256),
+    url_video_6 character varying(256),
+    url_video_7 character varying(256),
+    url_video_8 character varying(256),
+    url_video_9 character varying(256),
+    created timestamp without time zone,
+    modified timestamp without time zone
+);
+
+CREATE TABLE images (
+    id bigserial PRIMARY KEY,
+    slug character varying(128),
+    file_0 character varying(128),
+    file_1 character varying(128),
+    file_2 character varying(128),
+    file_3 character varying(128),
+    file_4 character varying(128),
+    file_5 character varying(128),
+    file_6 character varying(128),
+    file_7 character varying(128),
+    file_8 character varying(128),
+    file_9 character varying(128),
+    path character varying(64),
+    created timestamp without time zone,
+    modified timestamp without time zone
+);
+
+CREATE TABLE admins (
+    id serial PRIMARY KEY,
+    email character varying(128),
+    password character varying(256),
+    role character varying(32),
+    created timestamp without time zone,
+    modified timestamp without time zone
 );

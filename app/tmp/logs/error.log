@@ -174,3 +174,1150 @@ Stack Trace:
 #9 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
 #10 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #11 {main}
+2016-12-17 20:49:45 Error: [MissingHelperException] Helper class UrlHelper could not be found.
+Exception Attributes: array (
+  'class' => 'UrlHelper',
+  'plugin' => false,
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Url')
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(858): HelperCollection->__isset('Url')
+#2 /home/julio/Documents/CrowFounding/back/app/View/Users/add.ctp(2): View->__get('Url')
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(971): include('/home/julio/Doc...')
+#4 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(933): View->_evaluate('/home/julio/Doc...', Array)
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(473): View->_render('/home/julio/Doc...')
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-17 20:54:38 Error: Fatal Error (1): Call to a member function find() on null in [/home/julio/Documents/CrowFounding/back/app/Controller/UsersController.php, line 115]
+2016-12-17 20:54:38 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /Users/getStates
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/julio/Doc...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/julio/Doc...', 115, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/julio/Doc...', 115, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-17 21:00:47 Error: [MissingViewException] View file "Users/get_states.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/get_states.ctp',
+)
+Request URL: /Users/getStates
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-12-17 21:02:48 Error: Fatal Error (1): Call to a member function find() on null in [/home/julio/Documents/CrowFounding/back/app/Controller/UsersController.php, line 115]
+2016-12-17 21:02:48 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /Users/getStates
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/julio/Doc...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/julio/Doc...', 115, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/julio/Doc...', 115, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-17 21:03:19 Error: Fatal Error (1): Call to a member function find() on null in [/home/julio/Documents/CrowFounding/back/app/Controller/UsersController.php, line 115]
+2016-12-17 21:03:19 Error: [FatalErrorException] Call to a member function find() on null
+Request URL: /Users/getStates
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/julio/Doc...', 115)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/julio/Doc...', 115, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/julio/Doc...', 115, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-17 21:43:08 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/home/julio/Documents/CrowFounding/back/app/View/Categories/index.ctp, line 38]
+2016-12-17 21:43:08 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /categories
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/julio/Doc...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/julio/Doc...', 38, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/julio/Doc...', 38, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-17 22:04:41 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/datepicker-es.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-17 22:04:42 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/datepicker-es.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-17 22:04:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/datepicker-es.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-17 22:04:47 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/datepicker-es.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-17 22:04:49 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/datepicker-es.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-17 22:04:50 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /js/datepicker-es.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-12-17 22:11:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/home/julio/Documents/CrowFounding/back/app/View/Layouts/default.ctp, line 39]
+2016-12-17 22:11:11 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /users/edit/1
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/julio/Doc...', 39)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/julio/Doc...', 39, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/julio/Doc...', 39, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-18 01:00:10 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:00:20 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:11:58 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:13:20 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:13:22 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:13:38 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:13:45 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:19:09 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:19:14 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:19:57 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:20:13 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:23:20 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION) in [/home/julio/Documents/CrowFounding/back/app/Controller/AppController.php, line 55]
+2016-12-18 01:23:20 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/julio/Doc...', 55)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/julio/Doc...', 55, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/julio/Doc...', 55, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-18 01:25:22 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:25:25 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:25:33 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:25:35 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /users/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:26:41 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:27:00 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/index
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:30:28 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/index
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:30:42 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/datepicker3.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap.min.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery-1.11.1.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/styles.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:24 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap-datepicker.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap.min.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/datepicker3.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/styles.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery-1.11.1.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:32:25 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap-datepicker.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 01:33:10 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:33:26 Error: [UnauthorizedException] Unauthorized
+Request URL: /users
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:34:12 Error: [UnauthorizedException] Unauthorized
+Request URL: /users
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:34:18 Error: [UnauthorizedException] Unauthorized
+Request URL: /users
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:34:36 Error: [UnauthorizedException] Unauthorized
+Request URL: /countries/
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CountriesController))
+#2 [internal function]: AuthComponent->startup(Object(CountriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:34:39 Error: [UnauthorizedException] Unauthorized
+Request URL: /countries/
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CountriesController))
+#2 [internal function]: AuthComponent->startup(Object(CountriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:35:24 Error: [UnauthorizedException] Unauthorized
+Request URL: /countries/
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CountriesController))
+#2 [internal function]: AuthComponent->startup(Object(CountriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:36:21 Error: [UnauthorizedException] Unauthorized
+Request URL: /users
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(UsersController))
+#2 [internal function]: AuthComponent->startup(Object(UsersController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:36:26 Error: [UnauthorizedException] Unauthorized
+Request URL: /countries
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CountriesController))
+#2 [internal function]: AuthComponent->startup(Object(CountriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:37:09 Error: [UnauthorizedException] Unauthorized
+Request URL: /countries
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CountriesController))
+#2 [internal function]: AuthComponent->startup(Object(CountriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CountriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:37:20 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:37:25 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:39:10 Error: Fatal Error (1): Class 'AuthComponent' not found in [/home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php, line 565]
+2016-12-18 01:39:10 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/home/julio/Doc...', 565)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/home/julio/Doc...', 565, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/home/julio/Doc...', 565, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-18 01:45:42 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:47:27 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:47:31 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:48:07 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:48:11 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:48:12 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:48:21 Error: [UnauthorizedException] Unauthorized
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(AdminsController))
+#2 [internal function]: AuthComponent->startup(Object(AdminsController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:48:25 Error: [UnauthorizedException] Unauthorized
+Request URL: /categories
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CategoriesController))
+#2 [internal function]: AuthComponent->startup(Object(CategoriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:50:23 Error: [UnauthorizedException] Unauthorized
+Request URL: /categories
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CategoriesController))
+#2 [internal function]: AuthComponent->startup(Object(CategoriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:53:52 Error: [UnauthorizedException] Unauthorized
+Request URL: /categories
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CategoriesController))
+#2 [internal function]: AuthComponent->startup(Object(CategoriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:54:24 Error: [UnauthorizedException] Unauthorized
+Request URL: /categories
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(349): BasicAuthenticate->unauthenticated(Object(CakeRequest), Object(CakeResponse))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Component/AuthComponent.php(305): AuthComponent->_unauthenticated(Object(CategoriesController))
+#2 [internal function]: AuthComponent->startup(Object(CategoriesController))
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Utility/ObjectCollection.php(128): call_user_func_array(Array, Array)
+#4 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#5 /home/julio/Documents/CrowFounding/back/lib/Cake/Event/CakeEventManager.php(243): call_user_func(Array, Object(CakeEvent))
+#6 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(678): CakeEventManager->dispatch(Object(CakeEvent))
+#7 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(189): Controller->startupProcess()
+#8 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(CategoriesController), Object(CakeRequest))
+#9 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-12-18 01:57:38 Error: Fatal Error (4): syntax error, unexpected ''passwordHasher'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/home/julio/Documents/CrowFounding/back/app/Controller/AppController.php, line 65]
+2016-12-18 01:57:38 Error: [FatalErrorException] syntax error, unexpected ''passwordHasher'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /categories
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/julio/Doc...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/julio/Doc...', 65, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/julio/Doc...', 65, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-18 01:58:45 Error: [MissingActionException] Action AdminsController::admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'admin',
+)
+Request URL: /admins/admin
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 02:19:18 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/julio/Documents/CrowFounding/back/app/Model/Admin.php, line 49]
+2016-12-18 02:19:18 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /admins
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/julio/Doc...', 49)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/julio/Doc...', 49, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/julio/Doc...', 49, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-18 08:04:11 Error: Fatal Error (4): syntax error, unexpected '}' in [/home/julio/Documents/CrowFounding/back/app/Controller/AdminsController.php, line 32]
+2016-12-18 08:04:11 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/julio/Doc...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/julio/Doc...', 32, Array)
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/julio/Doc...', 32, Array)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-12-18 08:04:17 Error: [MissingLayoutException] Layout file "Layouts/html.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Layouts/html.ctp',
+)
+Request URL: /admins/login
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(514): View->_getLayoutFileName('html')
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/View/View.php(481): View->renderLayout('', 'html')
+#2 /home/julio/Documents/CrowFounding/back/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#3 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#4 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#5 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/bootstrap.min.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/datepicker3.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'css',
+)
+Request URL: /admins/css/styles.css
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/jquery-1.11.1.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap-datepicker.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart.min.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/chart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/easypiechart-data.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2016-12-18 08:06:31 Error: [MissingActionException] Action AdminsController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'AdminsController',
+  'action' => 'js',
+)
+Request URL: /admins/js/bootstrap-datepicker.js
+Stack Trace:
+#0 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/julio/Documents/CrowFounding/back/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(AdminsController), Object(CakeRequest))
+#2 /home/julio/Documents/CrowFounding/back/app/webroot/index.php(111): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

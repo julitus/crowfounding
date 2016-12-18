@@ -45,8 +45,8 @@
 									<td>
 										<?php echo $this->Html->link($user['Country']['name'], array('controller' => 'countries', 'action' => 'view', $user['Country']['id'])); ?>
 									</td>
-									<td><?php echo h($user['User']['created']); ?>&nbsp;</td>
-									<td><?php echo h($user['User']['modified']); ?>&nbsp;</td>
+									<td><?php echo h(date("d-m-Y", strtotime($user['User']['created']))); ?>&nbsp;</td>
+									<td><?php echo h(date("d-m-Y", strtotime($user['User']['modified']))); ?>&nbsp;</td>
 									<td class="actions">
 										<?= $this->Html->link(__('<span class="glyphicon glyphicon-search" aria-hidden="true"></span>'), array('action' => 'view', $user['User']['id']), array('class' => 'btn btn-info', 'title' => 'Ver', 'escape' => false)) ?>
 										<?= $this->Html->link(__('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>'), array('action' => 'edit', $user['User']['id']), array('class' => 'btn btn-success', 'title' => 'Editar', 'escape' => false)) ?>

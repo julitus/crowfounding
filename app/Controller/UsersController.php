@@ -55,9 +55,9 @@ class UsersController extends AppController {
 				$this->Flash->error(__('The user could not be saved. Please, try again.'));
 			}
 		}
-		$countries = $this->User->Country->find('list');
-		$states = $this->User->State->find('list');
-		$cities = $this->User->City->find('list');
+		$countries = $this->User->Country->find('list', array('conditions' => array('Country.active' => true)));
+		$states = array();
+		$cities = array();
 		$this->set(compact('countries', 'states', 'cities'));
 	}
 
@@ -82,10 +82,11 @@ class UsersController extends AppController {
 		} else {
 			$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
 			$this->request->data = $this->User->find('first', $options);
+			$this->request->data['User']['birthdate'] = date('d-m-Y', strtotime($this->request->data['User']['birthdate']));
 		}
-		$countries = $this->User->Country->find('list');
-		$states = $this->User->State->find('list');
-		$cities = $this->User->City->find('list');
+		$countries = $this->User->Country->find('list', array('conditions' => array('OR' => array('Country.id' => $this->request->data['User']['country_id'], 'Country.active' => true))));
+		$states = $this->User->State->find('list', array('conditions' => array('State.country_id' => $this->request->data['User']['country_id']), 'order' => array('State.name' => 'ASC')));
+		$cities = $this->User->City->find('list', array('conditions' => array('City.state_id' => $this->request->data['User']['state_id']), 'order' => array('City.name' => 'ASC')));
 		$this->set(compact('countries', 'states', 'cities'));
 	}
 
@@ -109,4 +110,27 @@ class UsersController extends AppController {
 		}
 		return $this->redirect(array('action' => 'index'));
 	}
+
+	public function getStates()
+    {
+        $data = array();
+        if ($this->request->is('ajax')) {       
+            $data = $this->User->State->find('list', array('conditions' => array('State.country_id' => $this->request->data['country_id']), 'order' => array('State.name' => 'ASC')));
+        }
+        $this->response->body(json_encode($data));
+        $this->autoRender = false;
+        return $this->response;
+    }
+
+    public function getCities()
+    {
+        $data = array();
+        if ($this->request->is('ajax')) {       
+            $data = $this->User->City->find('list', array('conditions' => array('City.state_id' => $this->request->data['state_id']), 'order' => array('City.name' => 'ASC')));
+        }
+        $this->response->body(json_encode($data));
+        $this->autoRender = false;
+        return $this->response;
+    }
+
 }

@@ -35,10 +35,10 @@
 									<td><?php echo h($category['Category']['id']); ?>&nbsp;</td>
 									<td><?php echo h($category['Category']['name']); ?>&nbsp;</td>
 									<td>
-										<?php echo $this->Html->link($category['ParentCategory']['name'], array('controller' => 'categories', 'action' => 'view', $category['ParentCategory']['id'])); ?>
+										<?php echo h($category['ParentCategory']['name']) ? $this->Html->link($category['ParentCategory']['name'], array('controller' => 'categories', 'action' => 'view', $category['ParentCategory']['id'])) : 'ninguno' ; ?>
 									</td>
-									<td><?php echo h($category['Category']['created']); ?>&nbsp;</td>
-									<td><?php echo h($category['Category']['modified']); ?>&nbsp;</td>
+									<td><?php echo h(date("d-m-Y", strtotime($category['Category']['created']))); ?>&nbsp;</td>
+									<td><?php echo h(date("d-m-Y", strtotime($category['Category']['modified']))); ?>&nbsp;</td>
 									<td class="actions">
 										<?= $this->Html->link(__('<span class="glyphicon glyphicon-search" aria-hidden="true"></span>'), array('action' => 'view', $category['Category']['id']), array('class' => 'btn btn-info', 'title' => 'Ver', 'escape' => false)) ?>
 										<?= $this->Html->link(__('<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>'), array('action' => 'edit', $category['Category']['id']), array('class' => 'btn btn-success', 'title' => 'Editar', 'escape' => false)) ?>

@@ -1,7 +1,7 @@
 <div class="row">
 	<ol class="breadcrumb">
 		<li><a href="#"><svg class="glyph stroked home"><use xlink:href="#stroked-home"></use></svg></a></li>
-		<li class="active"><?php echo __('Paises'); ?></li>
+		<li class="active"><?php echo __('Campañas'); ?></li>
 	</ol>
 </div>
 
